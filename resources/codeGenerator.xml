@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeGenerator>
+	
+	<serviceCode className="DzLog"  
+				 classPackage="com.zcb.codegenerator.test"
+				 entityNameCN="系统日志"
+				 serviceTargetProject=""  
+				 packageName="com.zcb.codegenerator.test.service"
+				 targetDir="src"  			 				 	
+			 	 author="张呈彬"
+	/>
+		
+	<serviceImplCode  	className="DzLog" 
+						classPackage="com.zcb.codegenerator.test" 
+						entityNameCN="系统日志"
+						serviceImplTargetProject="" 
+						servicePackage="com.zcb.codegenerator.test.service"
+						mapperPakage="com.zcb.codegenerator.test.dao"
+						packageName="com.zcb.codegenerator.test.impl"
+						targetDir="src"   						
+						author="张呈彬"
+	/>	 
+	<controllerCode  	className="DzLog" 
+						classPackage="com.zcb.codegenerator.test" 
+						entityNameCN="系统日志"
+						controllerOtherName=""
+						baseRequestMapping="/test"
+						controllerTargetProject=""
+						servicePackage="com.zcb.codegenerator.test.service"						
+						packageName="com.zcb.codegenerator.test.api"
+						targetDir="src"   						
+						author="张呈彬"
+	/>	  
+</codeGenerator>
+<!-- 使用说明 -->
+<!-- 	
+		@@@@serviceCode 参数列表@@@@ service接口
+			className：实体类名
+			classPackage：实体包名
+			entityNameCN：实体中文名称
+			serviceTargetProject：目标模块名称 
+			packageName：生成代码存放的包名
+			targetDir：存放包的上层目录
+			author：作者
+			
+	   @@@@serviceImplCode 参数列表@@@@  service实现类
+			className：实体类名
+			classPackage：实体包名
+			entityNameCN：实体中文名称
+			serviceImplTargetProject：目标模块名称 
+			servicePackage：接口包
+			mapperPakage： mapper 包
+			packageName：生成代码存放的包名
+			targetDir：存放包的上层目录
+			author：作者
+			
+	  @@@@controllerCode 参数列表@@@@  controller
+			className：实体类名
+			classPackage：实体包名
+			entityNameCN：实体中文名称
+			controllerOtherName： controller别名 
+			controllerTargetProject：目标工程/模块名称 
+			baseRequestMapping: 顶层RequestMapping 
+			servicePackage: service 包名
+			packageName：生成代码存放的包名
+			targetDir：存放包的上层目录
+			author：作者
+-->
+	
